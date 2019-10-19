@@ -9,7 +9,7 @@ void print(const list_node *pList)
     printf("list_node=%d ",*(INT32*)(pList->pData));
 }
 
-int main(INT32 argc, CHAR **argv)
+int main()
 {
     int i = 0;
 
